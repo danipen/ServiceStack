@@ -29,6 +29,8 @@ namespace ServiceStack
                 requestDto);
         }
 
+        // this change has been done in plastic to force a conflict
+
         public static string ToAbsoluteUri(this IReturn request, string httpMethod = null, string formatFallbackToPredefinedRoute = null)
         {
             var relativeUrl = request.ToUrl(
