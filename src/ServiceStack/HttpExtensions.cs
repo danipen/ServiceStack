@@ -18,6 +18,7 @@ namespace ServiceStack
         public static HttpRequestContext ToRequestContext(this HttpContext httpContext, object requestDto = null)
         {
             return new HttpRequestContext(
+                // la vamos a liar
                 httpContext.Request.ToRequest(),
                 httpContext.Response.ToResponse(),
                 requestDto);
