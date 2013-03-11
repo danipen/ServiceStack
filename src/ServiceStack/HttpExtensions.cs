@@ -7,6 +7,8 @@ using ServiceStack.ServiceHost;
 using ServiceStack.WebHost.Endpoints;
 using ServiceStack.WebHost.Endpoints.Extensions;
 
+// forcing a conflict (plastic)
+
 namespace ServiceStack
 {
     public static class HttpExtensions
