@@ -21,6 +21,8 @@ namespace ServiceStack
                 requestDto);
         }
 
+        // from plastic
+
         public static HttpRequestContext ToRequestContext(this HttpListenerContext httpContext, object requestDto = null)
         {
             return new HttpRequestContext(
