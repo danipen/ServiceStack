@@ -30,6 +30,7 @@ namespace ServiceStack
         }
 
         // this change has been done in plastic to force a conflict
+        // this change has been done in Git to force a conflict
 
         public static string ToAbsoluteUri(this IReturn request, string httpMethod = null, string formatFallbackToPredefinedRoute = null)
         {
